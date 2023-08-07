@@ -37,6 +37,8 @@ const Navbar = () => {
           src={HamburgerIcon}
           alt=""
           className="text-white lg:hidden"
+          width="24px"
+          height="24px"
           onClick={toggleSidebar}
         />
         <div className="flex flex-1 justify-center">SQL Playground</div>
