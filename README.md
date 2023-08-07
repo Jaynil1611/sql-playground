@@ -15,7 +15,8 @@ View the live demo of the application here 👉 [SQL Playground](http://sql-payg
 
 ## Application View!
 
-![SQL Playground](https://user-images.githubusercontent.com/48921037/192089148-acc5b26e-35ec-46af-83ee-77d5017ed663.png)
+![SQL Playground](https://github.com/Jaynil1611/sql-payground/assets/48921037/61c39b5e-63c7-459f-9b93-08faf956ed57)
+
 
 ## Technologies Used
 - React JS
