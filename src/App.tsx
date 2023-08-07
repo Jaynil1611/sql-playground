@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import QueryInput from "./components/QueryInput/QueryInput";
+import QueryOutput from "./components/QueryOutput/QueryOutput";
+import Schema from "./components/Schema/Schema";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <main className="m-4 lg:flex gap-4 items-baseline">
+        <section className="hidden lg:block w-48 flex-shrink-0 overflow-x-hidden">
+          <div className="text-xl font-bold">Schema Definition</div>
+          <Schema />
+        </section>
+        <section className="min-w-0 flex-1 mb-8">
+          <QueryInput />
+          <QueryOutput />
+        </section>
+      </main>
+    </>
   );
 }
 
