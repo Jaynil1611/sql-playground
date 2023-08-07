@@ -35,9 +35,8 @@ const QueryEditor = () => {
         onClick={() => textareaRef.current?.focus()}
         className="relative flex bg-light h-32"
       >
-        <label htmlFor="sql-query-editor" />
         <textarea
-          id="sql-query-editor"
+          aria-label="sql query editor"
           className="absolute selection:bg-blue-500 selection:text-light inset-0 resize-none bg-transparent py-2 pl-8 font-mono text-transparent caret-black outline-none"
           value={query}
           ref={textareaRef}
