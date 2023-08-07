@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# SQL Playground⚡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+- This application helps users to query the tables available in database via SQL.
+- Users can execute SQL queries & view the results. 
+- Users can select a query from a set of pre-defined queries.
+- Users can view the table schema & corresponding type of each column in the sidebar.
+- Users can sort any column of the result by clicking on the column name header.
+- Users can navigate the entire result using pagination.
+- Users can export the queried result into CSV format.
 
-## Available Scripts
+## Live Demo
+View the live demo of the application here 👉 [SQL Playground](http://sql-payground.vercel.app/).
 
-In the project directory, you can run:
 
-### `npm start`
+## Application View!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![SQL Playground](https://user-images.githubusercontent.com/48921037/192089148-acc5b26e-35ec-46af-83ee-77d5017ed663.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
+- React JS
+- Tailwind CSS
+- React Table
+- [react-json-to-csv](https://www.npmjs.com/package/react-json-to-csv)
+- [react-syntax-highlighter](https://www.npmjs.com/package/react-syntax-highlighter)
+- [react-table](https://www.npmjs.com/package/react-table)
 
-### `npm test`
+## Page Load Time
+- 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Performance Improvements
+- Used `useMemo` hook to avoid re-calculating same information for rendering tables.
+- Used dynamic imports & code-splitting to create separate bundle for table data to optimize time to interactive.
+- Made the website responsive to maintain consitent performance for mobile & tablet users.
+- Fixed image rendering issues & accessibility issues recommended by lighthouse report.
+- Using vercel to deploy this application which uses it's edge network to cache requests & improve initial load time.
 
-### `npm run build`
+## Run Application
+- Clone the repository
+- Run npm install to install required dependencies
+- Finally, run npm start to run the application and open the browser to view the site on localhost.
+- Use Node JS version `16.17.0` to run the application on local
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👤 **Jaynil Gaglani**
+- Portfolio: [jaynil.gaglani](https://bit.ly/jaynil-profile)
+- Linkedin: [Jaynil Gaglani](https://www.linkedin.com/in/jaynilgaglani/)
+- Twitter: [@Jaynil1611](https://twitter.com/Jaynil_Gaglani)
+- Github: [@Jaynil1611](https://github.com/Jaynil1611)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Show your support
+Give a ⭐️ if you like this repository!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with ❤️ by Jaynil Gaglani
