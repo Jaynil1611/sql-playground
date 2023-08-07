@@ -1,6 +1,13 @@
 import React from "react";
 
-const Button = ({ children, onClick, disabled, ariaLabel }) => {
+interface ButtonProps {
+  children: React.ReactNode;
+  onClick: (e: React.MouseEvent) => void;
+  disabled?: boolean;
+  ariaLabel?: string;
+}
+
+const Button = ({ children, onClick, disabled, ariaLabel }: ButtonProps) => {
   return (
     <button
       aria-label={ariaLabel}
