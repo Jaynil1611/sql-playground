@@ -26,8 +26,8 @@ View the live demo of the application here 👉 [SQL Playground](http://sql-payg
 
 ## Page Load Time
 - Performance Report is calculated using [Page Speed Insights](https://pagespeed.web.dev/)
-- [Desktop Performance Report]()
-- [Mobile Performance Report]()
+- [Desktop Performance Report](https://pagespeed.web.dev/analysis/http-sql-payground-vercel-app/vuhnq6bik4?form_factor=desktop)
+- [Mobile Performance Report](https://pagespeed.web.dev/analysis/http-sql-payground-vercel-app/vuhnq6bik4?form_factor=mobile)
 
 ## Performance Improvements
 - Used `useMemo` hook to avoid re-calculating same information for rendering tables.
